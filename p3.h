@@ -86,8 +86,6 @@ void CMD_mmap(char *arg[],int trozos, tListM *M);
 void CMD_read(char *ar[],int trozos);
 void CMD_write(char *param[],int trozos);
 void CMD_mem(char *param[],int trozos, tListM *M);
-void CMD_memfill(char *param[], int trozos);
-void CMD_memdump(char *param[],int trozos);
 void CMD_recurse(char *param[], int trozos);
 
 void mostrarMemList(tListM M, pid_t pid, cmd tElemento);
